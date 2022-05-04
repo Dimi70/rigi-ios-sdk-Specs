@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.frameworks        = 'UIKit'
 
   s.vendored_frameworks    = 'Rigi/Frameworks/Rigi.xcframework'
+  s.preserve_paths    = ['Rigi/Assets/**', 'Rigi/bin/**', 'Rigi/docs/**']
 
 #  s.subspec 'bin' do |bin|
 #    bin.source_files = 'Rigi/bin/**'
@@ -24,7 +25,6 @@ Pod::Spec.new do |s|
 #    docs.source_files = 'Rigi/docs/**'
 #  end
 
-  s.preserve_paths    = ['Rigi/bin/**', 'Rigi/docs/**']
 
 #  s.preserve_paths    = ['Rigi/bin/**', 'Rigi/docs/**']
 end
