@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.frameworks        = 'UIKit'
 
   s.vendored_frameworks    = 'Frameworks/Rigi.xcframework'
-#  s.resources              = 'Resources/Rigi.xcassets'
+  s.resources              = 'Resources/*'
 
   # Group swift files in Pod source
 #  s.subspec 'Classes' do |classes|
