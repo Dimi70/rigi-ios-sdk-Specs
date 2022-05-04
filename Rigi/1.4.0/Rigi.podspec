@@ -15,13 +15,13 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks    = 'Rigi/Frameworks/Rigi.xcframework'
 
-  s.subspec 'bin' do |bin|
-    bin.source_files = 'Rigi/bin/**'
-  end
+#  s.subspec 'bin' do |bin|
+#    bin.source_files = 'Rigi/bin/**'
+#  end
  
-  s.subspec 'docs' do |docs|
-    docs.source_files = 'Rigi/docs/**'
-  end
+#  s.subspec 'docs' do |docs|
+#    docs.source_files = 'Rigi/docs/**'
+#  end
  
-  s.preserve_paths    = ['Rigi/bin/**', 'Rigi/docs/**']
+#  s.preserve_paths    = ['Rigi/bin/**', 'Rigi/docs/**']
 end
